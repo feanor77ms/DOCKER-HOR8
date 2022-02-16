@@ -1,0 +1,20 @@
+version: '2'
+services:
+   hornero-stack:
+    container_name: hornero
+    image: hornero-master:latest
+    build: .
+    ports:
+      - 8010:8010
+      - 8011:8011
+      - 8012:8012
+      - 8069:8069
+      - 8013:8013
+    volumes:
+      - ./hor-conf:/etc/odoo
+      - master-filestore:/home/odoo/filestore
+      - master-log:/opt/odoo/log
+    
+volumes:
+  master-filestore:
+  master-log:

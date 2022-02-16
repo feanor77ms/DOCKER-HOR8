@@ -1,0 +1,16 @@
+fontconfig
+git
+libjpeg8-dev
+libldap2-dev
+libsasl2-dev
+libssl-dev
+libxml2-dev
+libxrender1
+libxslt1-dev
+node-less
+nodejs
+npm
+python-dev
+python-pip
+sudo
+zlib1g-dev
